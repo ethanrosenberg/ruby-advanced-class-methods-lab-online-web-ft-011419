@@ -34,6 +34,6 @@ class Song
   end
   
   def self.find_or_create_by_name(name)
-    @@all.map {|x| x.name == name}
+    @@all.map {|x| x.name == name} ? 
   
 end
