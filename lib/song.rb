@@ -13,6 +13,7 @@ class Song
   def self.create
     temp = Song.new
     temp.save
+    return temp
   end
 
 end
