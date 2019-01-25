@@ -67,4 +67,8 @@ class Song
     #binding.pry
   end
   
+  def self.destroy_all
+    @all = []
+  end
+  
 end
