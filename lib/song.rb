@@ -16,4 +16,6 @@ class Song
     return temp
   end
 
+ def self.new_by_name(song)
+   return Song.new_by_name(song)
 end
