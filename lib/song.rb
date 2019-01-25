@@ -51,6 +51,7 @@ class Song
     name_split = name.split(" - ")
     song.name = name_split[1].slice! ".mp3"
     song.artist_name = name_split[0]
+    binding.pry
   end
   
 end
